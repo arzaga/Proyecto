@@ -1,7 +1,8 @@
 package com.example.alexis.proyecto.mData;
 
+
 /**
- * Created by Oclemy on 5/11/2016 for ProgrammingWizards Channel and http://www.camposha.com.
+ * Created by Alexis on 19/03/2017.
  */
 public class SpaceCraft {
 

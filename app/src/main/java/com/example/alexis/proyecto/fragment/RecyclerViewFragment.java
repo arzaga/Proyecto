@@ -27,8 +27,9 @@ import java.util.ArrayList;
 
 import OpenHelper.SQLite_OpenHelper;
 
+
 /**
- * Created by anahisalgado on 20/04/16.
+ * Created by Alexis on 19/03/2017.
  */
 public class RecyclerViewFragment extends Fragment implements IRecyclerViewFragmentView {
     private ArrayList<Dieta> dietas;

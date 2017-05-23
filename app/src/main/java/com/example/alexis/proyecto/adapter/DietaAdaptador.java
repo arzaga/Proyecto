@@ -18,8 +18,9 @@ import com.example.alexis.proyecto.model.Dieta;
 
 import java.util.ArrayList;
 
+
 /**
- * Created by anahisalgado on 19/04/16.
+ * Created by Alexis on 19/03/2017.
  */
 public class DietaAdaptador extends RecyclerView.Adapter<DietaAdaptador.DietaViewHolder>{
 

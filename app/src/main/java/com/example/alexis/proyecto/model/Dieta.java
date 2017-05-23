@@ -1,7 +1,8 @@
 package com.example.alexis.proyecto.model;
 
+
 /**
- * Created by anahisalgado on 19/04/16.
+ * Created by Alexis on 19/03/2017.
  */
 public class Dieta {
 

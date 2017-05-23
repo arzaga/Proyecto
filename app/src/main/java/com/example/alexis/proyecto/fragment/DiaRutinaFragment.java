@@ -18,8 +18,9 @@ import com.example.alexis.proyecto.presentador.DiaRutinaFragmentPresenter;
 
 import java.util.ArrayList;
 
+
 /**
- * Created by anahisalgado on 20/04/16.
+ * Created by Alexis on 19/03/2017.
  */
 public class DiaRutinaFragment extends Fragment implements IDiaRutinaFragmentView {
     private ArrayList<DiaRutina> diaRutinas;

@@ -10,8 +10,9 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.TextView;
 
+
 /**
- * Created by anahisalgado on 19/04/16.
+ * Created by Alexis on 19/03/2017.
  */
 public class DetalleContacto extends AppCompatActivity {
 //    private static final String KEY_EXTRA_URL = "url";

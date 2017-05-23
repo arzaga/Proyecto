@@ -23,8 +23,9 @@ import com.example.alexis.proyecto.mDetail.DetailActivity;
 
 import java.util.ArrayList;
 
+
 /**
- * Created by Oclemy on 5/11/2016 for ProgrammingWizards Channel and http://www.camposha.com.
+ * Created by Alexis on 19/03/2017.
  */
 public class MyAdapter extends RecyclerView.Adapter<MyHolder> {
 
