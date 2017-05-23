@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:id="@+id/layoutGif"
+
+    >
+
+    <pl.droidsonroids.gif.GifImageView
+        app:srcCompat="@drawable/presshombrosmancuernas"
+        android:id="@+id/imgGif"
+        android:layout_gravity="center"
+        android:scaleType="centerInside"
+        android:background="@color/cardview_light_background"
+        android:layout_height="270dp"
+        android:layout_width="240dp" />
+
+    <TextView
+        android:text="prueba"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtGif"
+        android:layout_gravity="center"
+        android:textColor="@color/accent"
+        android:layout_alignTop="@+id/spacecraftImage"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textSize="24sp"
+        android:shadowColor="#000"
+        android:shadowRadius="1"
+        android:textAlignment="center"
+        android:breakStrategy="simple"
+        android:fontFamily="sans-serif-smallcaps"/>
+</LinearLayout>

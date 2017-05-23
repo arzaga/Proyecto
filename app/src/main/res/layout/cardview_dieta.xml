@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/tvDieta"
+    android:layout_width="300dp"
+    android:layout_marginBottom="@dimen/activity_vertical_margin"
+    card_view:cardCornerRadius="@dimen/corner_radius_cardview"
+    android:layout_gravity="center"
+    android:foregroundGravity="center"
+    android:layout_height="wrap_content"
+    android:shadowDx="2" android:shadowDy="4" android:shadowRadius="1.8">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/imgFoto"
+                android:layout_width="125dp"
+                android:layout_height="84dp"
+                android:src="@drawable/botonmanc"
+
+                android:layout_gravity="top|left|center"
+                android:layout_marginRight="10dp"
+                android:layout_weight="1" />
+
+            <TextView
+                android:id="@+id/tvNombreCV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Comida 1"
+                android:textSize="@dimen/nombre_cardview"
+                android:layout_weight="1"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="6dp"
+            android:layout_gravity="center"
+            android:weightSum="1">
+
+            <LinearLayout
+                android:layout_marginTop="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_weight="7.50">
+
+                <TextView
+                    android:id="@+id/tvTelefonoCV"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="15155"
+
+                    />
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>

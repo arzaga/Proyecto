@@ -1,0 +1,37 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.alexis.proyecto.RutinaFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageButton
+            app:srcCompat="@drawable/btn_circulo_default"
+            android:id="@+id/btnPierna"
+            android:background="@drawable/pierna"
+            android:scaleType="centerCrop"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            />
+
+        <Button
+            app:srcCompat="@drawable/pecho"
+            android:id="@+id/btnPecho"
+            android:background="@drawable/pecho"
+            android:scaleType="centerCrop"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_width="150dp"
+            android:layout_height="150dp" />
+
+    </LinearLayout>
+</FrameLayout>

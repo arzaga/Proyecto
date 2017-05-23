@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.alexis.proyecto">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/botonmac"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Principal"></activity>
+        <activity
+            android:name=".Splash"
+            android:theme="@style/Theme.Transparente"
+            >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Registro" />
+        <activity android:name=".DetalleContacto" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".mDetail.DetailActivity" />
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <activity android:name=".Menup" />
+        <activity
+            android:name=".Calculo"
+            android:label="D&amp;T Calcular Plan" />
+        <activity
+            android:name=".Menutab"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+    </application>
+
+</manifest>
