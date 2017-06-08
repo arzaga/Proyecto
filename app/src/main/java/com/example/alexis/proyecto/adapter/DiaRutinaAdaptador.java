@@ -10,11 +10,9 @@ import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.example.alexis.proyecto.DetalleContacto;
 import com.example.alexis.proyecto.MainActivity;
 import com.example.alexis.proyecto.R;
 import com.example.alexis.proyecto.model.DiaRutina;
-import com.example.alexis.proyecto.model.Dieta;
 
 import java.util.ArrayList;
 

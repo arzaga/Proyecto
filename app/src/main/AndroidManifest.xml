@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.alexis.proyecto">
-
+    <uses-permission android:name="android.permission.INTERNET" />
     <application
         android:allowBackup="true"
         android:icon="@mipmap/botonmac"
@@ -20,7 +20,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".Registro" />
-        <activity android:name=".DetalleContacto" />
+        <activity android:name=".DetalleDieta" />
         <activity android:name=".MainActivity" />
         <activity android:name=".mDetail.DetailActivity" />
         <meta-data

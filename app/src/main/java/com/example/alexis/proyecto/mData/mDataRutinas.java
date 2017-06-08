@@ -4,13 +4,13 @@ package com.example.alexis.proyecto.mData;
 /**
  * Created by Alexis on 19/03/2017.
  */
-public class SpaceCraft {
+public class mDataRutinas {
 
     String name;
     String series;
     int image;
 
-    public SpaceCraft() {
+    public mDataRutinas() {
     }
 
     public String getName() {

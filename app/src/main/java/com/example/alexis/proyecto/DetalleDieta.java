@@ -12,9 +12,9 @@ import android.widget.TextView;
 
 
 /**
- * Created by Alexis on 19/03/2017.
+ * Created by Alexis on 19/03/2017 .
  */
-public class DetalleContacto extends AppCompatActivity {
+public class DetalleDieta extends AppCompatActivity {
 //    private static final String KEY_EXTRA_URL = "url";
     private TextView tvNombre;
     private TextView tvTelefono;

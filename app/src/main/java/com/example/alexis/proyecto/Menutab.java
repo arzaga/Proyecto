@@ -1,6 +1,9 @@
 package com.example.alexis.proyecto;
 
 import android.content.Intent;
+import android.graphics.BitmapFactory;
+import android.net.Uri;
+import android.provider.MediaStore;
 import android.support.design.widget.TabLayout;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -58,7 +61,8 @@ public class Menutab extends AppCompatActivity {
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
+
+                Snackbar.make(view, "Por aquí hay uno u.u", Snackbar.LENGTH_LONG)
                         .setAction("Action", null).show();
             }
         });
@@ -88,6 +92,14 @@ public class Menutab extends AppCompatActivity {
                 ControlSesion.logOut(this);
                 finish();
                 break;
+            case R.id.mCompartir:
+                Intent intent = new Intent(Intent.ACTION_SEND);
+                intent.setType("text/plain");
+                intent.putExtra(Intent.EXTRA_TEXT, "DIET & TRAINING la mejor Aplicación para tu entrenamiento\n" +
+                        "https://github.com/arzaga/Proyecto.git");
+                startActivity(Intent.createChooser(intent, "Share with"));
+                break;
+
         }
 
         return super.onOptionsItemSelected(item);

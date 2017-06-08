@@ -29,6 +29,7 @@ public class Calculo extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_calculo);
+//       mCompartir
         //EditText
         edtAltura = (EditText) findViewById(R.id.edtAltura);
         edtPeso = (EditText) findViewById(R.id.edtPeso);

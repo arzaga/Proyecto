@@ -3,14 +3,11 @@ package com.example.alexis.proyecto.mRecycler;
 import android.app.Activity;
 import android.app.Dialog;
 import android.content.Context;
-import android.content.Intent;
 import android.graphics.drawable.ColorDrawable;
 import android.support.v7.widget.RecyclerView;
-import android.text.Layout;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
@@ -18,8 +15,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.example.alexis.proyecto.R;
-import com.example.alexis.proyecto.mData.SpaceCraft;
-import com.example.alexis.proyecto.mDetail.DetailActivity;
+import com.example.alexis.proyecto.mData.mDataRutinas;
 
 import java.util.ArrayList;
 
@@ -30,9 +26,9 @@ import java.util.ArrayList;
 public class MyAdapter extends RecyclerView.Adapter<MyHolder> {
 
     Context c;
-    ArrayList<SpaceCraft> spaceCrafts;
+    ArrayList<mDataRutinas> spaceCrafts;
 
-    public MyAdapter(Context c, ArrayList<SpaceCraft> spaceCrafts) {
+    public MyAdapter(Context c, ArrayList<mDataRutinas> spaceCrafts) {
         this.c = c;
         this.spaceCrafts = spaceCrafts;
     }

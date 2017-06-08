@@ -11,7 +11,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 
-import com.example.alexis.proyecto.DetalleContacto;
+import com.example.alexis.proyecto.DetalleDieta;
 import com.example.alexis.proyecto.R;
 
 import com.example.alexis.proyecto.model.Dieta;
@@ -51,7 +51,7 @@ public class DietaAdaptador extends RecyclerView.Adapter<DietaAdaptador.DietaVie
             @Override
             public void onClick(View v) {
                 Toast.makeText(activity, contacto.getNombre(), Toast.LENGTH_SHORT).show();
-                Intent intent = new Intent(activity, DetalleContacto.class);
+                Intent intent = new Intent(activity, DetalleDieta.class);
                 intent.putExtra("nombre", contacto.getNombre());
                 intent.putExtra("telefono", contacto.getTelefono());
                 intent.putExtra("email", contacto.getEmail());
