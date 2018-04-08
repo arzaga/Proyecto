@@ -25,15 +25,6 @@ public class SQLite_OpenHelper extends SQLiteOpenHelper{
                 "Email text, " +
                 "Password text);";
         db.execSQL(query);
-//        String query2="create table calculo(_ID integer primary key autoincrement, " +
-//                "_IDTabUsu integer , " +
-//                "IngestaDiaria text, " +
-//                "TMB text, " +
-//                "pGRASA text," +
-//                "IMC text, " +
-//                "MasaCorporalMagra text," +
-//                "CinturaAltura text),FOREIGN KEY(_IDTabUsu) REFERENCES usuarios(_ID);";
-//        db.execSQL(query2);
 
     }
 
